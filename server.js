@@ -22,6 +22,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // parse application/json
 app.use(bodyParser.json());
 
+
+
 // Static directory
 app.use(express.static("public"));
 
